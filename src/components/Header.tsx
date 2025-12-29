@@ -40,13 +40,13 @@ export function Header({ variant = 'transparent' }: HeaderProps) {
                 "font-serif text-xl font-bold",
                 variant === 'transparent' ? "text-primary-foreground" : "text-foreground"
               )}>
-                ImobSaaS
+                Mosaico CRM
               </span>
               <span className={cn(
                 "block text-xs",
                 variant === 'transparent' ? "text-primary-foreground/70" : "text-muted-foreground"
               )}>
-                Imobiliária Digital
+                Sua Imobiliária Digital
               </span>
             </div>
           </Link>
